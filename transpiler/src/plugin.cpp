@@ -81,7 +81,8 @@ public:
         // printf("============= ================ =============\n");
         // debug_function(fun->decl, TDF_ALL_VALUES);
         // printf("============= ================ =============\n");
-        custom_dump_function_to_file(fun->decl, stdout, TDF_ALL_VALUES);
+        // custom_dump_function_to_file(fun->decl, stdout, TDF_ALL_VALUES);
+        dump_function_to_file(fun->decl, stdout, TDF_ALL_VALUES);
         // int nof_blocks = post_order_compute(postorder.data(), true, true);
         // for(int i = nof_blocks - 1; i >= 0; i--) {
         //     basic_block gcc_bb = (*fun->cfg->x_basic_block_info)[postorder[i]];
